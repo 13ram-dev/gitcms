@@ -1,0 +1,18 @@
+{
+  "name": "@13ram/gitcms",
+  "version": "1.0.0",
+  "description": "A light weight, highly customizable git based cms that you can include in your project as a dependency.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jamstack",
+    "content management",
+    "cms",
+    "git based cms",
+    "headless"
+  ],
+  "author": "13ram.dev",
+  "license": "GNU GPLv3"
+}
