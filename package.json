@@ -1,10 +1,14 @@
 {
   "name": "@13ram/gitcms",
   "repository": "https://github.com/13ram-dev/gitcms",
-  "version": "1.0.0",  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A light weight, highly customizable git based cms that you can include in your project as a dependency.",
   "main": "index.js",
   "scripts": {
+    "bundle": "webpack",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production",
+    "check-types": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,5 +19,28 @@
     "headless"
   ],
   "author": "13ram.dev",
-  "license": "GNU GPLv3"
+  "license": "GNU GPLv3",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.4",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/preset-typescript": "^7.7.4",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "tslint": "^5.20.1",
+    "tslint-immutable": "^6.0.1",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.22",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "webpack-dev-server": "^3.9.0"
+  }
 }
