@@ -1,5 +1,6 @@
 {
   "name": "@13ram/gitcms",
+  "repository": "https://github.com/13ram-dev/gitcms",
   "version": "1.0.0",
   "description": "A light weight, highly customizable git based cms that you can include in your project as a dependency.",
   "main": "index.js",
